@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<a href="#home" id="home">home</a>
+<a href="#about" id="about">about</a>
+
+<div>
+    <div>
+        <h3>Gold</h3>
+        <h2 id="gold">0</h2>
+    </div>
+</div>
+
+<div>
+    <div id="donkeyItem">
+        <label for="donkey" id="donkeyCount"><b>Donkeys: 1 | Multiplier: 1</b></label>
+        </br>
+        <a href="#" id="donkey">Donkey Squeeze</a>
+        </br>
+        <a href="#" id="donkeyBuy">Buy a Donkey (10 Gold)</a>
+        </br>
+        <a href="#" id="donkeyDoubler">Increase Donkey Multiplier! (10 000 Gold)</a>
+    </div>
+    <div id="lawyerItem">
+        <label for="lawyer" id="lawyerCount"><b>Lawyers: 0 | Multiplier: 1</b></label>
+        </br>
+        <a href="#" id="lawyer">Sue somebody</a>
+        </br>
+        <a href="#" id="lawyerBuy">Hire a Lawyer (1 000 Gold)</a>
+        </br>
+        <a href="#" id="lawyerDoubler">Increase Lawyer Multiplier! (1 000 000 Gold)</a>
+    </div>
+    <div id="devilItem">
+        <label for="devil" id="devilCount"><b>Devils: 0 | Multiplier: 1</b></label>
+        </br>
+        <a href="#" id="devil">Commit a deed of extreme Evil</a>
+        </br>
+        <a href="#" id="devilBuy">Make a Contract (100 000 Gold)</a>
+        </br>
+        <a href="#" id="devilDoubler">Increase Devil Multiplier! (100 000 000 Gold)</a>
+    </div>
+</div>
+
+<div id="aboutText">
+    <h1>
+        Squeeze donkeys, sue the world and commit the most evilest of deeds for just a little bit of money!
+    </h1>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+
+
+<script src="init.js"></script>
+
+<script src="models/ValueModel.js"></script>
+
+<script src="collections/ValueCollection.js"></script>
+
+<script src="views/Gold.js"></script>
+
+<script src="views/Donkey.js"></script>
+<script src="views/DonkeyCount.js"></script>
+
+<script src="views/Lawyer.js"></script>
+<script src="views/LawyerCount.js"></script>
+
+<script src="views/Devil.js"></script>
+<script src="views/DevilCount.js"></script>
+
+<script src="views/About.js"></script>
+
+<script src="routers/Router.js"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>
